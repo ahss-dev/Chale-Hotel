@@ -1,0 +1,43 @@
+/* Resetando parametros da página */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Formatando o corpo da página */
+
+body {
+    background: #fff url(imagens/bg.png);
+    margin: 15px;
+}
+
+#container {
+    background: #ede9cc;
+    width: 100%;
+}
+
+#topo {
+    background: #dbcd87;
+    max-width: 1200px;
+    height: 15.4em;
+    min-height: 250px;
+    position: relative;
+}
+
+#area-logo {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+    background: url(imagens/topo-imagem-principal.png) no-repeat;
+}
+
+#area-menu {
+    background: url(imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
